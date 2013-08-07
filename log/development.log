@@ -1,0 +1,762 @@
+
+
+Started GET "/todas" for 127.0.0.1 at 2013-08-02 13:00:01 -0700
+  Processing by LeitorController#lerTodas as HTML
+Rendered leitor/lerTodas.html.erb within layouts/application (49.8ms)
+Compiled application.css  (2ms)  (pid 3703)
+Compiled leitor.css  (77ms)  (pid 3703)
+Compiled application.js  (47ms)  (pid 3703)
+Compiled jquery.js  (25ms)  (pid 3703)
+Compiled jquery_ujs.js  (5ms)  (pid 3703)
+Compiled google-tts.min.js  (0ms)  (pid 3703)
+Compiled jquery-1.9.1.min.js  (2ms)  (pid 3703)
+Compiled leitor.js  (1270ms)  (pid 3703)
+Compiled soundmanager2.js  (7ms)  (pid 3703)
+Compiled src/google-tts.js  (0ms)  (pid 3703)
+Completed 200 OK in 3462ms (Views: 1920.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-02 13:00:09 -0700
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/leitor.css?body=1" for 127.0.0.1 at 2013-08-02 13:00:09 -0700
+Served asset /leitor.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/jquery-1.9.1.min.js?body=1" for 127.0.0.1 at 2013-08-02 13:00:09 -0700
+Served asset /jquery-1.9.1.min.js - 304 Not Modified (37ms)
+
+
+Started GET "/assets/google-tts.min.js?body=1" for 127.0.0.1 at 2013-08-02 13:00:09 -0700
+Served asset /google-tts.min.js - 304 Not Modified (48ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-02 13:00:09 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (39ms)
+
+
+Started GET "/assets/soundmanager2.js?body=1" for 127.0.0.1 at 2013-08-02 13:00:09 -0700
+Served asset /soundmanager2.js - 304 Not Modified (45ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-02 13:00:09 -0700
+Served asset /jquery.js - 304 Not Modified (29ms)
+
+
+Started GET "/assets/leitor.js?body=1" for 127.0.0.1 at 2013-08-02 13:00:09 -0700
+Served asset /leitor.js - 304 Not Modified (37ms)
+
+
+Started GET "/assets/src/google-tts.js?body=1" for 127.0.0.1 at 2013-08-02 13:00:09 -0700
+Served asset /src/google-tts.js - 304 Not Modified (36ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-02 13:00:09 -0700
+Served asset /application.js - 304 Not Modified (66ms)
+
+
+Started GET "/leitor" for 127.0.0.1 at 2013-08-02 13:01:05 -0700
+  Processing by LeitorController#index as HTML
+Rendered leitor/index.html.erb within layouts/application (34.6ms)
+Completed 200 OK in 2757ms (Views: 140.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-02 13:01:08 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/leitor.css?body=1" for 127.0.0.1 at 2013-08-02 13:01:08 -0700
+Served asset /leitor.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-02 13:01:08 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/google-tts.min.js?body=1" for 127.0.0.1 at 2013-08-02 13:01:08 -0700
+Served asset /google-tts.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/leitor.js?body=1" for 127.0.0.1 at 2013-08-02 13:01:08 -0700
+Served asset /leitor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-1.9.1.min.js?body=1" for 127.0.0.1 at 2013-08-02 13:01:08 -0700
+Served asset /jquery-1.9.1.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-02 13:01:08 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/soundmanager2.js?body=1" for 127.0.0.1 at 2013-08-02 13:01:08 -0700
+Served asset /soundmanager2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/src/google-tts.js?body=1" for 127.0.0.1 at 2013-08-02 13:01:08 -0700
+Served asset /src/google-tts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-02 13:01:08 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/todas" for 127.0.0.1 at 2013-08-02 13:01:52 -0700
+  Processing by LeitorController#lerTodas as HTML
+Rendered leitor/lerTodas.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1289ms (Views: 52.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/leitor.css?body=1" for 127.0.0.1 at 2013-08-02 13:01:53 -0700
+Served asset /leitor.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-02 13:01:53 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-02 13:01:53 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-02 13:01:53 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/soundmanager2.js?body=1" for 127.0.0.1 at 2013-08-02 13:01:53 -0700
+Served asset /soundmanager2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-1.9.1.min.js?body=1" for 127.0.0.1 at 2013-08-02 13:01:53 -0700
+Served asset /jquery-1.9.1.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/google-tts.min.js?body=1" for 127.0.0.1 at 2013-08-02 13:01:53 -0700
+Served asset /google-tts.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/leitor.js?body=1" for 127.0.0.1 at 2013-08-02 13:01:53 -0700
+Served asset /leitor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/src/google-tts.js?body=1" for 127.0.0.1 at 2013-08-02 13:01:53 -0700
+Served asset /src/google-tts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-02 13:01:53 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/leitor" for 127.0.0.1 at 2013-08-02 13:23:40 -0700
+  Processing by LeitorController#index as HTML
+Rendered leitor/index.html.erb within layouts/application (197.1ms)
+Completed 200 OK in 2297ms (Views: 664.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-02 13:23:47 -0700
+Served asset /application.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-02 13:23:47 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (39ms)
+
+
+Started GET "/assets/leitor.css?body=1" for 127.0.0.1 at 2013-08-02 13:23:47 -0700
+Served asset /leitor.css - 304 Not Modified (35ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-02 13:23:47 -0700
+Served asset /jquery.js - 304 Not Modified (47ms)
+
+
+Started GET "/assets/leitor.js?body=1" for 127.0.0.1 at 2013-08-02 13:23:47 -0700
+Served asset /leitor.js - 304 Not Modified (50ms)
+
+
+Started GET "/assets/jquery-1.9.1.min.js?body=1" for 127.0.0.1 at 2013-08-02 13:23:47 -0700
+Served asset /jquery-1.9.1.min.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/soundmanager2.js?body=1" for 127.0.0.1 at 2013-08-02 13:23:47 -0700
+Served asset /soundmanager2.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/src/google-tts.js?body=1" for 127.0.0.1 at 2013-08-02 13:23:47 -0700
+Served asset /src/google-tts.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/google-tts.min.js?body=1" for 127.0.0.1 at 2013-08-02 13:23:47 -0700
+Served asset /google-tts.min.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-02 13:23:47 -0700
+Served asset /application.js - 304 Not Modified (32ms)
+
+
+Started GET "/assets/src/google-tts.js?body=1" for 127.0.0.1 at 2013-08-02 13:23:48 -0700
+Served asset /src/google-tts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-02 13:23:48 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.map" for 127.0.0.1 at 2013-08-02 13:28:29 -0700
+Served asset /jquery.min.map - 304 Not Modified (184ms)
+
+
+Started GET "/leitor" for 127.0.0.1 at 2013-08-02 13:30:36 -0700
+  Processing by LeitorController#index as HTML
+Rendered leitor/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 1368ms (Views: 42.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/leitor.css?body=1" for 127.0.0.1 at 2013-08-02 13:30:38 -0700
+Served asset /leitor.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-02 13:30:38 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/google-tts.min.js?body=1" for 127.0.0.1 at 2013-08-02 13:30:38 -0700
+Served asset /google-tts.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-02 13:30:38 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-02 13:30:38 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-1.9.1.min.js?body=1" for 127.0.0.1 at 2013-08-02 13:30:38 -0700
+Served asset /jquery-1.9.1.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/leitor.js?body=1" for 127.0.0.1 at 2013-08-02 13:30:38 -0700
+Served asset /leitor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/soundmanager2.js?body=1" for 127.0.0.1 at 2013-08-02 13:30:38 -0700
+Served asset /soundmanager2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/src/google-tts.js?body=1" for 127.0.0.1 at 2013-08-02 13:30:38 -0700
+Served asset /src/google-tts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-02 13:30:38 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.map" for 127.0.0.1 at 2013-08-02 13:30:39 -0700
+Served asset /jquery.min.map - 304 Not Modified (0ms)
+
+
+Started GET "/assets/soundmanager2.js?body=1" for 127.0.0.1 at 2013-08-02 13:30:39 -0700
+Served asset /soundmanager2.js - 304 Not Modified (0ms)
+
+
+Started GET "/todas" for 127.0.0.1 at 2013-08-03 20:31:25 -0700
+  Processing by LeitorController#lerTodas as HTML
+Rendered leitor/lerTodas.html.erb within layouts/application (75.5ms)
+Completed 200 OK in 2603ms (Views: 753.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/leitor" for 127.0.0.1 at 2013-08-03 20:31:35 -0700
+  Processing by LeitorController#index as HTML
+Rendered leitor/index.html.erb within layouts/application (28.2ms)
+Completed 200 OK in 1026ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-03 20:31:37 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-03 20:31:37 -0700
+Served asset /application.css - 304 Not Modified (54ms)
+
+
+Started GET "/assets/jquery-1.9.1.min.js?body=1" for 127.0.0.1 at 2013-08-03 20:31:37 -0700
+Served asset /jquery-1.9.1.min.js - 304 Not Modified (55ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-03 20:31:37 -0700
+Served asset /jquery.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/google-tts.min.js?body=1" for 127.0.0.1 at 2013-08-03 20:31:37 -0700
+Served asset /google-tts.min.js - 304 Not Modified (30ms)
+
+
+Started GET "/assets/leitor.css?body=1" for 127.0.0.1 at 2013-08-03 20:31:37 -0700
+Served asset /leitor.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/leitor.js?body=1" for 127.0.0.1 at 2013-08-03 20:31:38 -0700
+Served asset /leitor.js - 304 Not Modified (23ms)
+
+
+Started GET "/assets/soundmanager2.js?body=1" for 127.0.0.1 at 2013-08-03 20:31:38 -0700
+Served asset /soundmanager2.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/src/google-tts.js?body=1" for 127.0.0.1 at 2013-08-03 20:31:38 -0700
+Served asset /src/google-tts.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-03 20:31:38 -0700
+Served asset /application.js - 304 Not Modified (35ms)
+
+
+Started GET "/leitor" for 127.0.0.1 at 2013-08-03 20:39:13 -0700
+  Processing by LeitorController#index as HTML
+Completed 500 Internal Server Error in 40354ms
+
+Twitter::Error::ClientError (execution expired):
+  app/controllers/leitor_controller.rb:7:in `ultima'
+  app/controllers/leitor_controller.rb:33:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (9.5ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.3ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (44.6ms)
+
+
+Started GET "/leitor" for 127.0.0.1 at 2013-08-03 20:39:55 -0700
+  Processing by LeitorController#index as HTML
+Completed 500 Internal Server Error in 40034ms
+
+Twitter::Error::ClientError (execution expired):
+  app/controllers/leitor_controller.rb:7:in `ultima'
+  app/controllers/leitor_controller.rb:33:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.5ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.9ms)
+
+
+Started GET "/leitor" for 127.0.0.1 at 2013-08-03 20:41:01 -0700
+  Processing by LeitorController#index as HTML
+Completed 500 Internal Server Error in 40008ms
+
+Twitter::Error::ClientError (execution expired):
+  app/controllers/leitor_controller.rb:7:in `ultima'
+  app/controllers/leitor_controller.rb:33:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.1ms)
+
+
+Started GET "/todas" for 127.0.0.1 at 2013-08-03 20:41:41 -0700
+  Processing by LeitorController#lerTodas as HTML
+Completed   in 40022ms
+
+
+Started GET "/todas" for 127.0.0.1 at 2013-08-03 21:06:20 -0700
+  Processing by LeitorController#lerTodas as HTML
+Completed 500 Internal Server Error in 40079ms
+
+Twitter::Error::ClientError (execution expired):
+  app/controllers/leitor_controller.rb:21:in `todasMsg'
+  app/controllers/leitor_controller.rb:37:in `lerTodas'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.5ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (142.8ms)
+
+
+Started GET "/leitor" for 127.0.0.1 at 2013-08-03 21:07:12 -0700
+  Processing by LeitorController#index as HTML
+Completed 500 Internal Server Error in 25017ms
+
+Twitter::Error::ClientError (execution expired):
+  app/controllers/leitor_controller.rb:7:in `ultima'
+  app/controllers/leitor_controller.rb:33:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (6.0ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.7ms)
+
+
+Started GET "/leitor" for 127.0.0.1 at 2013-08-03 21:07:39 -0700
+  Processing by LeitorController#index as HTML
+Rendered leitor/index.html.erb within layouts/application (217.8ms)
+Completed 200 OK in 2726ms (Views: 820.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-03 21:07:43 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (180ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-03 21:07:43 -0700
+Served asset /jquery.js - 304 Not Modified (42ms)
+
+
+Started GET "/assets/leitor.css?body=1" for 127.0.0.1 at 2013-08-03 21:07:43 -0700
+Served asset /leitor.css - 304 Not Modified (97ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-03 21:07:43 -0700
+Served asset /application.css - 304 Not Modified (95ms)
+
+
+Started GET "/assets/soundmanager2.js?body=1" for 127.0.0.1 at 2013-08-03 21:07:43 -0700
+Served asset /soundmanager2.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/leitor.js?body=1" for 127.0.0.1 at 2013-08-03 21:07:43 -0700
+Served asset /leitor.js - 304 Not Modified (106ms)
+
+
+Started GET "/assets/src/google-tts.js?body=1" for 127.0.0.1 at 2013-08-03 21:07:44 -0700
+Served asset /src/google-tts.js - 304 Not Modified (39ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-03 21:07:44 -0700
+Served asset /application.js - 304 Not Modified (36ms)
+
+
+Started GET "/assets/jquery-1.9.1.min.js?body=1" for 127.0.0.1 at 2013-08-03 21:07:44 -0700
+Served asset /jquery-1.9.1.min.js - 304 Not Modified (99ms)
+
+
+Started GET "/assets/google-tts.min.js?body=1" for 127.0.0.1 at 2013-08-03 21:07:44 -0700
+Served asset /google-tts.min.js - 304 Not Modified (114ms)
+
+
+Started GET "/todas" for 127.0.0.1 at 2013-08-03 21:08:03 -0700
+  Processing by LeitorController#lerTodas as HTML
+Rendered leitor/lerTodas.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 1215ms (Views: 101.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/leitor.css?body=1" for 127.0.0.1 at 2013-08-03 21:08:05 -0700
+Served asset /leitor.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-03 21:08:05 -0700
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-03 21:08:05 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/google-tts.min.js?body=1" for 127.0.0.1 at 2013-08-03 21:08:05 -0700
+Served asset /google-tts.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-03 21:08:05 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-1.9.1.min.js?body=1" for 127.0.0.1 at 2013-08-03 21:08:05 -0700
+Served asset /jquery-1.9.1.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/leitor.js?body=1" for 127.0.0.1 at 2013-08-03 21:08:05 -0700
+Served asset /leitor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/soundmanager2.js?body=1" for 127.0.0.1 at 2013-08-03 21:08:05 -0700
+Served asset /soundmanager2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/src/google-tts.js?body=1" for 127.0.0.1 at 2013-08-03 21:08:06 -0700
+Served asset /src/google-tts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-03 21:08:06 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/leitor" for 127.0.0.1 at 2013-08-03 21:08:14 -0700
+  Processing by LeitorController#index as HTML
+Rendered leitor/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 1181ms (Views: 181.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-03 21:08:16 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-03 21:08:16 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/leitor.css?body=1" for 127.0.0.1 at 2013-08-03 21:08:16 -0700
+Served asset /leitor.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-1.9.1.min.js?body=1" for 127.0.0.1 at 2013-08-03 21:08:16 -0700
+Served asset /jquery-1.9.1.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-03 21:08:17 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/google-tts.min.js?body=1" for 127.0.0.1 at 2013-08-03 21:08:17 -0700
+Served asset /google-tts.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/leitor.js?body=1" for 127.0.0.1 at 2013-08-03 21:08:17 -0700
+Served asset /leitor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/soundmanager2.js?body=1" for 127.0.0.1 at 2013-08-03 21:08:17 -0700
+Served asset /soundmanager2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/src/google-tts.js?body=1" for 127.0.0.1 at 2013-08-03 21:08:17 -0700
+Served asset /src/google-tts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-03 21:08:17 -0700
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.min.map" for 127.0.0.1 at 2013-08-03 21:08:32 -0700
+Served asset /jquery.min.map - 304 Not Modified (178ms)
+
+
+Started GET "/leitor" for 127.0.0.1 at 2013-08-03 21:09:53 -0700
+  Processing by LeitorController#index as HTML
+Rendered leitor/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 1236ms (Views: 44.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/leitor.css?body=1" for 127.0.0.1 at 2013-08-03 21:09:56 -0700
+Served asset /leitor.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-03 21:09:56 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/google-tts.min.js?body=1" for 127.0.0.1 at 2013-08-03 21:09:56 -0700
+Served asset /google-tts.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-03 21:09:56 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/leitor.js?body=1" for 127.0.0.1 at 2013-08-03 21:09:56 -0700
+Served asset /leitor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-03 21:09:56 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-03 21:09:56 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/soundmanager2.js?body=1" for 127.0.0.1 at 2013-08-03 21:09:56 -0700
+Served asset /soundmanager2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-1.9.1.min.js?body=1" for 127.0.0.1 at 2013-08-03 21:09:56 -0700
+Served asset /jquery-1.9.1.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/src/google-tts.js?body=1" for 127.0.0.1 at 2013-08-03 21:09:56 -0700
+Served asset /src/google-tts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.map" for 127.0.0.1 at 2013-08-03 21:09:57 -0700
+Served asset /jquery.min.map - 304 Not Modified (17ms)
+
+
+Started GET "/leitor" for 127.0.0.1 at 2013-08-03 21:12:05 -0700
+  Processing by LeitorController#index as HTML
+Rendered leitor/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 1332ms (Views: 53.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-03 21:12:06 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-03 21:12:06 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/leitor.js?body=1" for 127.0.0.1 at 2013-08-03 21:12:07 -0700
+Served asset /leitor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-1.9.1.min.js?body=1" for 127.0.0.1 at 2013-08-03 21:12:07 -0700
+Served asset /jquery-1.9.1.min.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-03 21:12:07 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/google-tts.min.js?body=1" for 127.0.0.1 at 2013-08-03 21:12:07 -0700
+Served asset /google-tts.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/leitor.css?body=1" for 127.0.0.1 at 2013-08-03 21:12:07 -0700
+Served asset /leitor.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/soundmanager2.js?body=1" for 127.0.0.1 at 2013-08-03 21:12:07 -0700
+Served asset /soundmanager2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/src/google-tts.js?body=1" for 127.0.0.1 at 2013-08-03 21:12:07 -0700
+Served asset /src/google-tts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-03 21:12:07 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.map" for 127.0.0.1 at 2013-08-03 21:12:08 -0700
+Served asset /jquery.min.map - 304 Not Modified (96ms)
+
+
+Started GET "/leitor" for 127.0.0.1 at 2013-08-03 21:19:50 -0700
+  Processing by LeitorController#index as HTML
+Rendered leitor/index.html.erb within layouts/application (1316.3ms)
+Completed 200 OK in 4885ms (Views: 1941.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-03 21:20:07 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-03 21:20:07 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-03 21:20:07 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/google-tts.min.js?body=1" for 127.0.0.1 at 2013-08-03 21:20:07 -0700
+Served asset /google-tts.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/leitor.css?body=1" for 127.0.0.1 at 2013-08-03 21:20:07 -0700
+Served asset /leitor.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-1.9.1.min.js?body=1" for 127.0.0.1 at 2013-08-03 21:20:07 -0700
+Served asset /jquery-1.9.1.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/leitor.js?body=1" for 127.0.0.1 at 2013-08-03 21:20:07 -0700
+Served asset /leitor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/soundmanager2.js?body=1" for 127.0.0.1 at 2013-08-03 21:20:07 -0700
+Served asset /soundmanager2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-03 21:20:07 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/src/google-tts.js?body=1" for 127.0.0.1 at 2013-08-03 21:20:09 -0700
+Served asset /src/google-tts.js - 304 Not Modified (0ms)
+
+
+Started GET "/leitor" for 127.0.0.1 at 2013-08-03 21:20:42 -0700
+  Processing by LeitorController#index as HTML
+Rendered leitor/index.html.erb within layouts/application (445.1ms)
+Completed 200 OK in 1964ms (Views: 507.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/leitor.css?body=1" for 127.0.0.1 at 2013-08-03 21:20:45 -0700
+Served asset /leitor.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-03 21:20:45 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/leitor.js?body=1" for 127.0.0.1 at 2013-08-03 21:20:45 -0700
+Served asset /leitor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-03 21:20:45 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-03 21:20:45 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-1.9.1.min.js?body=1" for 127.0.0.1 at 2013-08-03 21:20:45 -0700
+Served asset /jquery-1.9.1.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/src/google-tts.js?body=1" for 127.0.0.1 at 2013-08-03 21:20:45 -0700
+Served asset /src/google-tts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-03 21:20:45 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/soundmanager2.js?body=1" for 127.0.0.1 at 2013-08-03 21:20:45 -0700
+Served asset /soundmanager2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/google-tts.min.js?body=1" for 127.0.0.1 at 2013-08-03 21:20:45 -0700
+Served asset /google-tts.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/leitor" for 127.0.0.1 at 2013-08-03 21:21:23 -0700
+  Processing by LeitorController#index as HTML
+Rendered leitor/index.html.erb within layouts/application (514.4ms)
+Completed 200 OK in 1511ms (Views: 584.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-03 21:21:25 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/leitor.css?body=1" for 127.0.0.1 at 2013-08-03 21:21:25 -0700
+Served asset /leitor.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/leitor.js?body=1" for 127.0.0.1 at 2013-08-03 21:21:25 -0700
+Served asset /leitor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/google-tts.min.js?body=1" for 127.0.0.1 at 2013-08-03 21:21:25 -0700
+Served asset /google-tts.min.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-03 21:21:25 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/soundmanager2.js?body=1" for 127.0.0.1 at 2013-08-03 21:21:25 -0700
+Served asset /soundmanager2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-03 21:21:25 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-1.9.1.min.js?body=1" for 127.0.0.1 at 2013-08-03 21:21:25 -0700
+Served asset /jquery-1.9.1.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/src/google-tts.js?body=1" for 127.0.0.1 at 2013-08-03 21:21:25 -0700
+Served asset /src/google-tts.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-03 21:21:25 -0700
+Served asset /application.js - 304 Not Modified (4ms)

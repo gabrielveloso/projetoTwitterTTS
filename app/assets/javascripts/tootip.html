@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+
+<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="src/google-tts.js"></script>
+<script type="text/javascript" src="soundmanager2.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+      soundManager.setup({
+        url: '/',
+        preferFlash: false,
+        onready: function() {
+          if (!window.GoogleTTS) {
+            $("#error").text("Sorry, the google-tts script couldn't be loaded.");
+            return;
+          } 
+
+          var googleTTS = new window.GoogleTTS();
+
+            
+
+
+
+            googleTTS.play("Às 10h12 Ônibus da Itamaracá está quebrado na Avenida. Cruz Cabugá, na frente do Shoppin Tacaruna, sentido Recife.", "pt", function(err) { 
+              if (err) {
+                $("#error").text(err.toString());
+              }
+
+              console.log('Finished playing');
+            });
+
+
+         
+        }
+      });
+    });
+</script>
+
+
+</body>
+</html>

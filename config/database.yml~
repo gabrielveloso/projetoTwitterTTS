@@ -1,0 +1,20 @@
+common: &common
+  adapter: postgresql
+  pool: 5
+  username: postgres
+  password: gava
+  host: localhost
+  port: 5432
+  encoding: UTF8
+
+development:
+  <<: *common
+  database: leitor_development
+
+test:
+  <<: *common
+  database: leitor_test
+
+production:
+  <<: *common
+  database: leitor_production

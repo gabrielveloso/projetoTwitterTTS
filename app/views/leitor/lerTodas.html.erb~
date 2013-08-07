@@ -1,0 +1,19 @@
+<p>
+
+estou no controller de leitor
+
+<<<<<<< HEAD
+</p> 
+=======
+<p> 
+>>>>>>> origin/master
+
+<%  @msgs.each do |mensagem| %>
+
+<p>
+<%= mensagem %>
+<<<<<<< HEAD
+</p>
+=======
+>>>>>>> origin/master
+<% end %>

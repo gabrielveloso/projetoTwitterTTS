@@ -1,0 +1,59 @@
+
+<script type="text/javascript">
+//var SM2_DEFER = true
+</script>
+
+<% javascript_include_tag 'jquery-1.9.1.min' %>
+<% javascript_include_tag 'src/google-tts' %>
+<% javascript_include_tag 'soundmanager2' %>
+
+
+<script type="text/javascript">
+
+//var soundManager = new SoundManager();
+//soundManager.beginDelayedInit();
+//soundManager.url = 'http://localhost:3000/soundmanager2_debug.swf';
+
+
+    $(document).ready(function(){
+
+     soundManager.setup({
+        url: 'http://localhost:3000/soundmanager2_debug.swf',
+
+        preferFlash: false,
+        onready: function() {
+          if (!window.GoogleTTS) {
+            $("#error").text("Sorry, the google-tts script couldn't be loaded.");
+            return;
+          } 
+
+          var googleTTS = new window.GoogleTTS();
+
+// '<%= @acesso %>'
+            googleTTS.play("Hello", "pt", function(err) { 
+
+              if (err) {
+                $("#error").text(err.toString());
+              }
+
+              console.log('Finished playing');
+            });
+
+
+         
+        }
+      });
+    });
+</script>
+
+
+<<<<<<< HEAD
+
+<p>
+
+estou no controller de leitoreeeeeeeeeeeeeee
+
+
+<p>
+
+
