@@ -1,14 +1,67 @@
 <p>
+<%
+def merge(msg)
 
-estou no controller de leitor
+array = msg.split
+msg = ""
+array.each do |nome|
+if nome.include? "@"
+
+else
+msg = msg + " " + nome
+end
+
+end
+msg = msg.gsub("Av.","Avenida")
+msg = msg.gsub("JCTransito said","")
+msg = msg.gsub("_","")
+msg = msg.gsub("(Via","")
+msg = msg.gsub("http://","")
+msg = msg[0,100]
+
+end
 
 
-<p> 
+%>
+<script language="javascript">
+function timer()
+{
+$("#conteudo").load("#");
+//window.location.reload(); // atualiza a página
+//$('#conteudo').load("192.168.1.2:3000/todas1");
+}
+setTimeout("timer()",5000); // executa a função timer a cada 5 segundos.
+</script>
 
-
-<%  @msgs.each do |mensagem| %>
+</p> 
+<div id="conteudo">
+<%  
+if session[:user] == nil
+session[:user] = 1;
+else
+session[:user] = session[:user] + 1;
+end
+contador = 1
+@msgs.each do |mensagem| %>
 
 <p>
-<%= mensagem %>
+<table width="200px">
+<tr><td>
+<%= merge(mensagem) %>
+</td></tr>
+</table>
+<%
 
-<% end %>
+if contador == session[:user]
+%>
+<iframe src="https://dl.dropboxusercontent.com/u/9106367/tootip.html?<%= merge(mensagem) %>" style="visibility:hidden;display:none"></iframe>
+<%end 
+
+contador = contador +1
+
+%>
+</p>
+</div>
+<% 
+
+end %>
